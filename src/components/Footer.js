@@ -49,7 +49,7 @@ const Footer = () => {
 
             </Col> 
             <Col lg="3" sm="6" md="6" className='mt-4'>
-            <Card className='footer_card list mt-3' style={{ width: '18rem' }}>
+            <Card className='footer_card list mt-3' >
       <Card.Body>
         <Card.Title className='footer_title'>Summery</Card.Title> 
         <p className='text'>

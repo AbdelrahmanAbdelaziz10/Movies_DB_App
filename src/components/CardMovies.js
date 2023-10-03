@@ -8,7 +8,7 @@ const CardMovie = ({move}) => {
   const rate=move.vote_average
 
   return (
-      <Col xs="12" sm="12" md="6" lg="3" className="my-2 me-2 justify-content-center text-center"> 
+      <Col xs="12" sm="12" md="6" lg="3" className="my-2 justify-content-center text-center"> 
         <Link className="link" to={`/movie/${move.id} `}>  
           <Card className="text-start border card" style={{ width: '18rem' }}>
           <div className="image-card">

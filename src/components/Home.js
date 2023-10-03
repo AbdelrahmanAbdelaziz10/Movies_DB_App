@@ -107,7 +107,7 @@ const Home = ({movies}) => {
 </div>
 
 <section className='pt-5'>
-<Container>
+<Container fluid>
 <Row className='mt-3 mb-2 ms-3'>
 <h2 className='popular ms-4 mb-5'>Popular Movies</h2>
 {
@@ -160,8 +160,8 @@ const Home = ({movies}) => {
 </Row>
 </Container>
 </section>
-
 <Slider movies={movies}/>
+
 
     </>
   )
