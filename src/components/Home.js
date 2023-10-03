@@ -131,9 +131,9 @@ const Home = ({movies}) => {
 <Container>
 <Row className='mt-3 bg mb-5'>
 <Col lg="6" md="12" sm="12" className=''>
-  <div className='m-4'>
+  <div className='m-2'>
     <h3 className='download_head mt-5 mb-4'>Download Your Movies Watch Offline.
-    Enjoy On Your Mobile</h3>
+    <br/>Enjoy On Your Mobile</h3>
     <p className='download_par'>
     rem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

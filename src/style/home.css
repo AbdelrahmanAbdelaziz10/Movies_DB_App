@@ -36,7 +36,7 @@
 }
 .card_slider{
     padding: 1%;
-    margin-top: 10%;
+    margin-top: 7%;
     background-color: #00aab3a9;
     height: 100%;
     width: 45%;
@@ -75,13 +75,11 @@
     left: 0;
 }
 
-.download{
-    overflow: hidden;
-}
+
 .download_head{
     font-size: 28px;
     font-weight: 600 !important;
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 .download_par{
     font-size: 20px;
