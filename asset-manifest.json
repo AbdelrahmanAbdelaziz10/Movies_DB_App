@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Movies_DB_App/static/css/main.0b7c0a69.css",
-    "main.js": "/Movies_DB_App/static/js/main.7180f4a6.js",
+    "main.css": "/Movies_DB_App/static/css/main.c46ef7df.css",
+    "main.js": "/Movies_DB_App/static/js/main.22fb8248.js",
     "static/js/787.863ecb7b.chunk.js": "/Movies_DB_App/static/js/787.863ecb7b.chunk.js",
     "static/media/mobile.png": "/Movies_DB_App/static/media/mobile.5ea7905dec53c4abfc74.png",
     "static/media/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg": "/Movies_DB_App/static/media/mXLOHHc1Zeuwsl4xYKjKh2280oL.cf5489dbb64f793b35d7.jpg",
@@ -9,12 +9,12 @@
     "static/media/poster3.jpg": "/Movies_DB_App/static/media/poster3.dcb9b1551d39f5a6e60b.jpg",
     "static/media/logo.png": "/Movies_DB_App/static/media/logo.800ff118d3628e8c8f7f.png",
     "index.html": "/Movies_DB_App/index.html",
-    "main.0b7c0a69.css.map": "/Movies_DB_App/static/css/main.0b7c0a69.css.map",
-    "main.7180f4a6.js.map": "/Movies_DB_App/static/js/main.7180f4a6.js.map",
+    "main.c46ef7df.css.map": "/Movies_DB_App/static/css/main.c46ef7df.css.map",
+    "main.22fb8248.js.map": "/Movies_DB_App/static/js/main.22fb8248.js.map",
     "787.863ecb7b.chunk.js.map": "/Movies_DB_App/static/js/787.863ecb7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b7c0a69.css",
-    "static/js/main.7180f4a6.js"
+    "static/css/main.c46ef7df.css",
+    "static/js/main.22fb8248.js"
   ]
 }
