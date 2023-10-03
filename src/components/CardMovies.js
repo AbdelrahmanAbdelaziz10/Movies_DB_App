@@ -10,7 +10,7 @@ const CardMovie = ({move}) => {
   return (
       <Col xs="12" sm="12" md="6" lg="3" className="my-2 justify-content-center text-center"> 
         <Link className="link" to={`/movie/${move.id} `}>  
-          <Card className="text-start border card" style={{ width: '18rem' }}>
+          <Card className="text-start border card">
           <div className="image-card">
             <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500/`+move.poster_path} className="card_img"/>
 </div>
