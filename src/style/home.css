@@ -79,7 +79,7 @@
 .download_head{
     font-size: 28px;
     font-weight: 600 !important;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 .download_par{
     font-size: 20px;
@@ -93,7 +93,7 @@
     color: #fff;
     font-size: 25px;
     font-weight: 500;
-    width: 18%;
+    width: 20%;
     margin-left: 5%;
 }
 .download_img{

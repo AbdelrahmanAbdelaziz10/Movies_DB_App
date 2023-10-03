@@ -5,6 +5,7 @@ import '../style/swiper.css'
 import { Row } from 'react-bootstrap';
 import CardMovie from './CardMovies';
 import { Navigation } from 'swiper/modules';
+import CardSlice from './cardSlider';
 
 const Slider = ({movies}) => {
     let count=0
@@ -18,7 +19,7 @@ const Slider = ({movies}) => {
       rewind={true}
         navigation={true}
         modules={[Navigation]}
-        className='swiper-container swiper text-center ps-5 '>
+        className='swiper-container swiper text-center ps-4 '>
 {
         movies.length>=1? (movies.map((move)=>{
             count++;
@@ -26,7 +27,7 @@ const Slider = ({movies}) => {
             return(
 
       <SwiperSlide key={move.id} className='swiper-slider '>
-      <CardMovie  move={move}/>
+      <CardSlice  move={move}  />
 
       </SwiperSlide>
 

@@ -107,8 +107,8 @@ const Home = ({movies}) => {
 </div>
 
 <section className='pt-5'>
-<Container fluid>
-<Row className='mt-3 mb-2 ms-3'>
+<Container >
+<Row className='mt-3 mb-2 '>
 <h2 className='popular ms-4 mb-5'>Popular Movies</h2>
 {
         movies.length>=1? (movies.map((move)=>{
@@ -127,7 +127,7 @@ const Home = ({movies}) => {
 </Container>
 </section>
 
-<section className=' download pt-5'>
+<section className=' download pb-3 pt-5'>
 <Container>
 <Row className='mt-3 bg mb-5'>
 <Col lg="6" md="12" sm="12" className=''>
