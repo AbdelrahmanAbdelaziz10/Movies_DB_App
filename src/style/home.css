@@ -38,7 +38,7 @@
     padding: 1%;
     margin-top: 10%;
     background-color: #00aab3a9;
-    height: 60%;
+    height: auto;
     width: 45%;
     position: absolute;
     transition: all 0.5s ease-in;
