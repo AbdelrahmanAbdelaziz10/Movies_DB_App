@@ -1,0 +1,111 @@
+.bg{
+    background-color: #0b7075;
+    border-radius: 3px;
+    max-height: 68vh;
+    overflow: hidden;
+}
+.section{
+    height: 80vh;
+    width: 100vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #11394667;
+    overflow: hidden;
+}
+.section::after{
+    content:'';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: linear-gradient(to right, #000000da , #00000065);
+    z-index: 2;
+}
+.head_text{
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    width: 100%;
+    overflow: hidden;
+    color: #fff !important;
+}
+.poster1{
+    padding-left: 13% !important;
+}
+.card_slider{
+    padding: 1%;
+    margin-top: 10%;
+    background-color: #00aab3a9;
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    z-index: 1111;
+    border: 4px solid #fff;
+}
+.card-text-detail {
+    font-size: 20px;
+    font-weight: 00;
+    letter-spacing: 0;
+  }
+  .header__image{
+    display: block;
+    width: 60%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-size: cover;
+}
+.popular{
+    color: #fff !important;
+    position: relative;
+}
+.popular::before{
+    content:'';
+    background-color: #0b7075;
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    top:-2px;
+    left: 0;
+}
+
+.download{
+    overflow: hidden;
+}
+.download_head{
+    font-size: 28px;
+    font-weight: 600 !important;
+    line-height: 3rem;
+}
+.download_par{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+.download_quality{
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    width: 18%;
+    margin-left: 5%;
+}
+.download_img{
+    width: 100%;
+    height: 100%;
+}
+.carousel_with{
+width: 20vw;
+}
+.slider{
+    max-width: 100vw;
+    overflow-x: hidden;
+}

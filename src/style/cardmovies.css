@@ -1,0 +1,56 @@
+.nav-style{
+    max-width: 100vw !important;
+}
+.card{
+    border: none;
+    margin-bottom: 5px;
+    background-color: #000;
+    color: #fff;
+    background-image: url('');
+
+}
+.image-card{
+    height: 80%;
+    overflow: hidden;
+
+}
+.card_img{
+    height: 100%;
+    border-radius: 3px;
+    overflow: hidden !important;
+}
+
+.card_text{
+    text-decoration: none !important;
+    line-height: 8px;
+    padding-left: 9%;
+    text-align: center;
+}
+.card .card_text .rating{
+    background-color: #00ABB3;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom:60px;
+    left: -8px;
+    text-align: center;
+    border: 4px solid #fff;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+.card:hover .card_img{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.card:hover .card_text .card_title{
+    color: #00ABB3;
+    transition: all 1s;
+
+}
+.link{
+    text-decoration: none;
+}

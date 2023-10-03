@@ -3,6 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+import './style/cardmovies.css';
+import './style/Search.css';
+import './style/footer.css';
+import './style/contactus.css';
+import './style/moviesdeteils.css';
+import './style/home.css';
+import './style/mediaquery.css';
+import './style/swiper.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
