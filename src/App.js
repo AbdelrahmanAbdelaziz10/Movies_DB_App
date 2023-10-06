@@ -55,7 +55,7 @@ function App() {
     <NavBar />
     
     <Routes>
-    <Route path="/" element={<Home movies={movies}/>}/>
+    <Route path="/Movies_DB_App" element={<Home movies={movies}/>}/>
     <Route path="/contact" element={<ContactUs />}/>
       <Route path="/movies" element={<MovieList movies={movies} getAllPage={getAllPage} pagecount={pagecount} search={search} />}/>
       <Route path="/movie/:id" element={<MovieDeteils movies={movies} />} />
