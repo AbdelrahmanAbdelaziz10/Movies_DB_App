@@ -25,7 +25,7 @@ const Footer = () => {
             <div className='list  mt-5'>
             <h4>OVERVIEW</h4>
                 <ul> 
-                    <li><a href='/'>Home</a></li>
+                    <li><a href='/Movies_DB_App'>Home</a></li>
                     <li><a href='/movies'>Movies</a></li>
                     <li><a href='/contact'>ContactUs</a></li>
                     <li><a href='/about'>About AMDB</a></li>
